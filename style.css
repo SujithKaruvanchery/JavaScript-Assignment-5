@@ -1,0 +1,28 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card img {
+    object-fit: cover;
+    height: 350px;
+    width: 250px;
+}
+.price{
+    font-weight: bold;
+    color: green;
+}
+.description{
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+}
